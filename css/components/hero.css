@@ -1,0 +1,71 @@
+.hero {
+  padding-bottom: 40px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 30px 0px;
+}
+
+.hero-right-content {
+  width: 100%;
+}
+
+.hero-right-content > img {
+  width: 100%;
+}
+
+.hero-left-content {
+  width: 100%;
+}
+
+.hero-left-content > * {
+  margin-top: 15px;
+}
+
+.hero-left-content:first-child {
+  margin-top: 0;
+}
+
+.hero-left-content > .btn {
+  margin-top: 25px;
+}
+
+.hero-left-content > label {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-style: normal;
+}
+
+.hero-left-content > h2 {
+  font-weight: 100;
+  font-size: 28px;
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hero-left-content > p {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-left-content {
+    width: 40%;
+  }
+
+  .hero-right-content {
+    width: 55%;
+  }
+}

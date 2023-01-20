@@ -1,0 +1,56 @@
+.partners {
+  padding-bottom: 100px;
+}
+
+.partners-text {
+  text-align: center;
+}
+
+.partners-text > * {
+  margin-top: 16px;
+}
+
+.partners-text:first-child {
+  margin-top: 0;
+}
+
+.partners-text > label {
+  color: var(--green-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.partners-text > h2 {
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.partners-text > h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.partners-logo {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
+}
+
+.partners-btn {
+  text-align: center;
+}
+
+@media (min-width: 1400px) {
+  .partners-logo {
+    justify-content: space-between;
+  }
+}

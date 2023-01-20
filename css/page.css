@@ -1,0 +1,16 @@
+/* Base css */
+@import "../css/basic.css/base.css";
+@import "../css/basic.css/layout.css";
+/* Components css */
+@import "../css/components/header.css";
+@import "../css/components/hero.css";
+@import "../css/components/button.css";
+@import "../css/components/partners.css";
+@import "../css/components/footer.css";
+
+header,
+.hero,
+footer {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
